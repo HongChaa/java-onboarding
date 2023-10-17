@@ -81,13 +81,4 @@ class Problem1 {
         return 0;
     }
 
-
-    public static void main(String[] args) {
-        List<Integer> pobi = List.of(99, 102);
-        List<Integer> crong = List.of(211, 212);
-
-        Problem1 problem1 = new Problem1();
-
-        System.out.println(problem1.solution(pobi,crong));
-    }
 }
